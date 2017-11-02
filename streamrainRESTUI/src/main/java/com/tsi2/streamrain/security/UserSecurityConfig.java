@@ -13,9 +13,9 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import com.tsi2.streamrain.security.filters.JwtFilter;
 import com.tsi2.streamrain.security.filters.LoginFilter;
 
-//@Configuration
-//@EnableWebSecurity
-//@Order(1)
+@Configuration
+@EnableWebSecurity
+@Order(1)
 public class UserSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	
@@ -29,15 +29,15 @@ public class UserSecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-		http.csrf().disable().authorizeRequests().antMatchers("/index.jsp").permitAll() // permitimos el acceso a /login a
+		http.csrf().disable().authorizeRequests().antMatchers("/*").permitAll(); // permitimos el acceso a /login a
 																					// cualquiera
-				.antMatchers("/user/*").authenticated() // cualquier otra peticion requiere autenticacion
-				.and()
+//				.antMatchers("/user/*").authenticated() // cualquier otra peticion requiere autenticacion
+//				.and()
 				// Las peticiones /login pasaran previamente por este filtro
-				.addFilterBefore(new LoginFilter("/user/login", authenticationManager()),
-						UsernamePasswordAuthenticationFilter.class)
+//				.addFilterBefore(new LoginFilter("/user/login", authenticationManager()),
+//						UsernamePasswordAuthenticationFilter.class)
 //				// Las demás peticiones pasarán por este filtro para validar el token
-				.addFilterBefore(new JwtFilter(), UsernamePasswordAuthenticationFilter.class);
+//				.addFilterBefore(new JwtFilter(), UsernamePasswordAuthenticationFilter.class);
 	}
 
 	@Override
