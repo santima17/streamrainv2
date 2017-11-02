@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="streamrainRESTUI">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
+        <dependent-module archiveName="streamrainuserservices-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/streamrainservices/streamrainservices">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="streamrainuserbussines-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/streamrainbussines/streamrainbussines">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="streamraindatalayer-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/streamraindatalayer/streamraindatalayer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="streamrainfacades-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/streamrainfacades/streamrainfacades">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/streamrainRESTUI/target/classes"/>
+        <property name="context-root" value="streamrainRESTUI"/>
+    </wb-module>
+</project-modules>
