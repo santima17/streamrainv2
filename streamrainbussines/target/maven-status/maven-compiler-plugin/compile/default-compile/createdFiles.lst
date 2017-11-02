@@ -1,7 +1,9 @@
-com/tsi2/streamrain/bussines/user/implementations/BLUserImpl.class
-com/tsi2/streamrain/bussines/category/interfaces/IBLCategory.class
-com/tsi2/streamrain/bussines/category/implementations/BLCategoryImpl.class
-com/tsi2/streamrain/bussines/user/interfaces/IBLUser.class
-com/tsi2/streamrain/context/StremRainUserBussinesContextLoader.class
-com/tsi2/streamrain/bussines/tenant/implementations/BLTenantImpl.class
-com/tsi2/streamrain/bussines/tenant/interfaces/IBLTenant.class
+com\tsi2\streamrain\bussines\tenant\interfaces\IBLTenant.class
+com\tsi2\streamrain\bussines\content\interfaces\IDAOContentBussines.class
+com\tsi2\streamrain\bussines\category\interfaces\IBLCategory.class
+com\tsi2\streamrain\bussines\category\implementations\BLCategoryImpl.class
+com\tsi2\streamrain\bussines\tenant\implementations\BLTenantImpl.class
+com\tsi2\streamrain\bussines\user\interfaces\IBLUser.class
+com\tsi2\streamrain\bussines\user\implementations\BLUserImpl.class
+com\tsi2\streamrain\bussines\content\implementations\DAOContentBussinesImpl.class
+com\tsi2\streamrain\context\StremRainUserBussinesContextLoader.class

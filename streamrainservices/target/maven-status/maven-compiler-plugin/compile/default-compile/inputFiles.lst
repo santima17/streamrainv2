@@ -1,7 +1,9 @@
-/home/santiago/tsi2workspace2/streamrainv2/streamrainservices/src/main/java/com/tsi2/streamrain/services/tenants/interfaces/ITenantService.java
-/home/santiago/tsi2workspace2/streamrainv2/streamrainservices/src/main/java/com/tsi2/streamrain/services/category/implementations/CategoryServiceImpl.java
-/home/santiago/tsi2workspace2/streamrainv2/streamrainservices/src/main/java/com/tsi2/streamrain/services/user/implementations/UserServiceImpl.java
-/home/santiago/tsi2workspace2/streamrainv2/streamrainservices/src/main/java/com/tsi2/streamrain/services/category/interfaces/ICategoryService.java
-/home/santiago/tsi2workspace2/streamrainv2/streamrainservices/src/main/java/com/tsi2/streamrain/context/StremRainUserServiceContextLoader.java
-/home/santiago/tsi2workspace2/streamrainv2/streamrainservices/src/main/java/com/tsi2/streamrain/services/tenants/implementations/TenantServiceImpl.java
-/home/santiago/tsi2workspace2/streamrainv2/streamrainservices/src/main/java/com/tsi2/streamrain/services/user/interfaces/IUserService.java
+C:\Users\juanb\git\streamrainv2\streamrainservices\src\main\java\com\tsi2\streamrain\services\category\interfaces\ICategoryService.java
+C:\Users\juanb\git\streamrainv2\streamrainservices\src\main\java\com\tsi2\streamrain\services\user\interfaces\IUserService.java
+C:\Users\juanb\git\streamrainv2\streamrainservices\src\main\java\com\tsi2\streamrain\context\StremRainUserServiceContextLoader.java
+C:\Users\juanb\git\streamrainv2\streamrainservices\src\main\java\com\tsi2\streamrain\services\category\implementations\CategoryServiceImpl.java
+C:\Users\juanb\git\streamrainv2\streamrainservices\src\main\java\com\tsi2\streamrain\services\content\implementations\ContentServiceImpl.java
+C:\Users\juanb\git\streamrainv2\streamrainservices\src\main\java\com\tsi2\streamrain\services\tenants\implementations\TenantServiceImpl.java
+C:\Users\juanb\git\streamrainv2\streamrainservices\src\main\java\com\tsi2\streamrain\services\user\implementations\UserServiceImpl.java
+C:\Users\juanb\git\streamrainv2\streamrainservices\src\main\java\com\tsi2\streamrain\services\content\interfaces\IContentService.java
+C:\Users\juanb\git\streamrainv2\streamrainservices\src\main\java\com\tsi2\streamrain\services\tenants\interfaces\ITenantService.java

@@ -1,7 +1,9 @@
-/home/santiago/tsi2workspace2/streamrainv2/streamrainbussines/src/main/java/com/tsi2/streamrain/bussines/tenant/implementations/BLTenantImpl.java
-/home/santiago/tsi2workspace2/streamrainv2/streamrainbussines/src/main/java/com/tsi2/streamrain/bussines/user/implementations/BLUserImpl.java
-/home/santiago/tsi2workspace2/streamrainv2/streamrainbussines/src/main/java/com/tsi2/streamrain/bussines/user/interfaces/IBLUser.java
-/home/santiago/tsi2workspace2/streamrainv2/streamrainbussines/src/main/java/com/tsi2/streamrain/bussines/tenant/interfaces/IBLTenant.java
-/home/santiago/tsi2workspace2/streamrainv2/streamrainbussines/src/main/java/com/tsi2/streamrain/context/StremRainUserBussinesContextLoader.java
-/home/santiago/tsi2workspace2/streamrainv2/streamrainbussines/src/main/java/com/tsi2/streamrain/bussines/category/interfaces/IBLCategory.java
-/home/santiago/tsi2workspace2/streamrainv2/streamrainbussines/src/main/java/com/tsi2/streamrain/bussines/category/implementations/BLCategoryImpl.java
+C:\Users\juanb\git\streamrainv2\streamrainbussines\src\main\java\com\tsi2\streamrain\bussines\user\interfaces\IBLUser.java
+C:\Users\juanb\git\streamrainv2\streamrainbussines\src\main\java\com\tsi2\streamrain\bussines\content\interfaces\IDAOContentBussines.java
+C:\Users\juanb\git\streamrainv2\streamrainbussines\src\main\java\com\tsi2\streamrain\bussines\tenant\implementations\BLTenantImpl.java
+C:\Users\juanb\git\streamrainv2\streamrainbussines\src\main\java\com\tsi2\streamrain\bussines\category\interfaces\IBLCategory.java
+C:\Users\juanb\git\streamrainv2\streamrainbussines\src\main\java\com\tsi2\streamrain\bussines\category\implementations\BLCategoryImpl.java
+C:\Users\juanb\git\streamrainv2\streamrainbussines\src\main\java\com\tsi2\streamrain\bussines\content\implementations\DAOContentBussinesImpl.java
+C:\Users\juanb\git\streamrainv2\streamrainbussines\src\main\java\com\tsi2\streamrain\bussines\user\implementations\BLUserImpl.java
+C:\Users\juanb\git\streamrainv2\streamrainbussines\src\main\java\com\tsi2\streamrain\context\StremRainUserBussinesContextLoader.java
+C:\Users\juanb\git\streamrainv2\streamrainbussines\src\main\java\com\tsi2\streamrain\bussines\tenant\interfaces\IBLTenant.java
